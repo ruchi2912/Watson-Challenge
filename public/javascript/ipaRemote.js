@@ -2,7 +2,7 @@
 
 // Service names
 var IPA_DIALOG_NAME = "ruchi_ipa1"; // REPLACE with your own name
-var IPA_CLASSIFIER_NAME = "bank2";  // NO NEED TO RENAME THIS ONE unless you want to
+var IPA_CLASSIFIER_NAME = "bank3";  // NO NEED TO RENAME THIS ONE unless you want to
 
 // Intent Types
 var INTENT_TYPE_DIALOG_EMAIL = "action-email-create";
