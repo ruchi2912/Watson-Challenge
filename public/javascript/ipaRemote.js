@@ -1,8 +1,8 @@
 'use strict';
 
 // Service names
-var IPA_DIALOG_NAME = "demo_ipa3"; // REPLACE with your own name
-var IPA_CLASSIFIER_NAME = "demo_ipa";  // NO NEED TO RENAME THIS ONE unless you want to
+var IPA_DIALOG_NAME = "ruchi_ipa1"; // REPLACE with your own name
+var IPA_CLASSIFIER_NAME = "bank1";  // NO NEED TO RENAME THIS ONE unless you want to
 
 // Intent Types
 var INTENT_TYPE_DIALOG_EMAIL = "action-email-create";
@@ -276,7 +276,7 @@ function getReplyToIntent(nlcResponse, userText)
             replyText = "Sorry. One of my cognitive systems is not working at the moment.";
             break;
         default:
-            replyText = "Sorry.  I don't understand your question.";
+            replyText = intentType ;
             break;
     }
     return replyText;
