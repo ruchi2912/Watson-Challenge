@@ -7,7 +7,7 @@ var IPA_CLASSIFIER_NAME = "bank3";  // NO NEED TO RENAME THIS ONE unless you wan
 // Intent Types
 var INTENT_TYPE_DIALOG_EMAIL = "action-email-create";
 var INTENT_TYPE_DIALOG_MEETING = "action-meeting-create";
-var INTENT_TYPE_DIALOG_SMS = "action-sms-create";
+var INTENT_TYPE_DIALOG_SMS = "action-sms1-create";
 
 var intentType = null;
 var ipaDialog = null;
