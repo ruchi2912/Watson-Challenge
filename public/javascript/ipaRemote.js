@@ -315,7 +315,7 @@ function determineUserIntent(userIntentText) {
                 handOffToDialog(userIntentText);
             }else {
                 displayWatsonChat(replyText);
-                displayWatsonChat("Is there anything else I can help you with?");
+                //displayWatsonChat("Is there anything else I can help you with?");
                 saveConversation(userIntentText,intentType,replyText);
             }
         }).fail(function(response){
